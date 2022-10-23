@@ -2,6 +2,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -90,4 +91,24 @@ input {
     color: white;
     position: absolute;
     top: 0%;
+}
+
+h1 {
+    color: rgb(166, 165, 165);
+    font-size: 200%;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-size: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+@media screen and (min-width: 679px) {
+    div.card {
+        transform: scale(1.2);
+    }
 }
