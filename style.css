@@ -17,8 +17,8 @@ div.card {
     color: white;
     padding: 2em;
     border-radius: 30px;
-    width: 100%;
-    max-width: 350px;
+    width: 350px;
+    transform: scale(0.8);
     margin: 1em;
 }
 
