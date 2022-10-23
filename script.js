@@ -33,3 +33,9 @@ document.querySelector('.search-button').addEventListener('click', e => {
 window.addEventListener('load', e => {
     weather.fetchWeather('Athens')
 })
+
+document.querySelector('.search-bar').addEventListener('keydown', e => {
+    if (e.key == 'Enter') {
+        weather.search()
+    }
+})
