@@ -28,5 +28,8 @@ let weather = {
 
 document.querySelector('.search-button').addEventListener('click', e => {
     weather.search()
+})
 
+window.addEventListener('load', e => {
+    weather.fetchWeather('Athens')
 })
